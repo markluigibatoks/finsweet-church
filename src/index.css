@@ -1,2 +1,77 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 @plugin "@tailwindcss/typography";
+
+@theme {
+    --font-roboto: "Roboto Condensed", sans-serif;
+
+    --text-paragraph: 16px;
+    --text-paragraph--line-height: 24px;
+    --text-h6: 16px;
+    --text-h5: 24px;
+    --text-h4: 32px;
+    --text-h3: 40px;
+    --text-h2: 48px;
+    --text-h1: 64px;
+    --text-label-1: 24px;
+    --text-label-1--line-height: 32px;
+    --text-label-2: 16px;
+    --text-label-3: 18px;
+    --text-cap-1: 16px;
+    --text-cap-2: 12px;
+
+    --color-primary: #FFD2A4;
+    --color-primary-hover: #F2C79B;
+    --color-light-orange: #FFF5EB;
+    --color-grey: #F5F2F0;
+}
+
+@layer components {
+
+    .container {
+        position: relative;
+        padding: 0 24px;
+    }
+
+    .wrapper {
+        max-width: 1280px;
+        width: 100%;
+    }
+
+    .text-gradient {
+        @apply bg-gradient-to-r from-[#A54E2B] to-[#DC9853] bg-clip-text text-transparent;
+    }
+
+    .button-primary {
+        background-color: var(--color-primary);
+        border-radius: var(--radius-2xl);
+        padding: 24px 64px;
+
+        text-align: center;
+        font-size: var(--text-paragraph);
+        line-height: 16px;
+        color: var(--color-black);
+
+        @variant hover {
+            background-color: var(--color-primary-hover);
+        }
+    }
+
+    .button-secondary {
+        background-color: var(--color-black);
+        border-radius: var(--radius-2xl);
+        padding: 24px 64px;
+
+        text-align: center;
+        font-size: var(--text-paragraph);
+        line-height: 16px;
+        color: var(--color-primary);
+
+        @variant hover {
+            background-color: var(--color-white);
+        }
+    }
+}
+
+
