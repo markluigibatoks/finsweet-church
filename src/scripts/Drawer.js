@@ -1,32 +1,43 @@
 class Drawer {
     constructor(drawerSelector, toggleSelector, closeSelector) {
-        this.drawer = document.querySelector(drawerSelector);
-        this.toggle = document.querySelector(toggleSelector);
-        this.close = closeSelector ? document.querySelector(closeSelector) : null;
+        this.drawer = document.querySelector(drawerSelector)
+        this.toggle = document.querySelector(toggleSelector)
+        this.hamburger = this.toggle?.querySelector('.group')
+        this.close = closeSelector ? document.querySelector(closeSelector) : null
 
         if (this.toggle && this.drawer) {
-            this.toggle.addEventListener('click', () => this.open());
+            this.toggle.addEventListener('click', () => this.toggleDrawer())
         }
 
         if (this.close && this.drawer) {
-            this.close.addEventListener('click', () => this.closeDrawer());
+            this.close.addEventListener('click', () => this.closeDrawer())
         }
 
         if (this.drawer) {
             this.drawer.addEventListener('click', (e) => {
-                if (e.target === this.drawer) this.closeDrawer();
+                if (e.target === this.drawer) this.closeDrawer()
             })
         }
     }
 
-    open() {
+    toggleDrawer() {
+        if(this.hamburger.classList.contains('open')) {
+            this.closeDrawer()
+        } else {
+            this.openDrawer()
+        }
+    }
+
+    openDrawer() {
+        this.hamburger.classList.add('open')
         this.drawer.classList.remove('h-0')
-        this.drawer.classList.add('h-screen');
+        this.drawer.classList.add('h-screen')
     }
 
     closeDrawer() {
-        this.drawer.classList.remove('h-screen'); 
-        this.drawer.classList.add('h-0');
+        this.hamburger.classList.remove('open')
+        this.drawer.classList.remove('h-screen') 
+        this.drawer.classList.add('h-0')
     }
 }
 

@@ -16,9 +16,10 @@ class Drawer {
   constructor(drawerSelector, toggleSelector, closeSelector) {
     this.drawer = document.querySelector(drawerSelector);
     this.toggle = document.querySelector(toggleSelector);
+    this.hamburger = this.toggle?.querySelector('.group');
     this.close = closeSelector ? document.querySelector(closeSelector) : null;
     if (this.toggle && this.drawer) {
-      this.toggle.addEventListener('click', () => this.open());
+      this.toggle.addEventListener('click', () => this.toggleDrawer());
     }
     if (this.close && this.drawer) {
       this.close.addEventListener('click', () => this.closeDrawer());
@@ -29,11 +30,20 @@ class Drawer {
       });
     }
   }
-  open() {
+  toggleDrawer() {
+    if (this.hamburger.classList.contains('open')) {
+      this.closeDrawer();
+    } else {
+      this.openDrawer();
+    }
+  }
+  openDrawer() {
+    this.hamburger.classList.add('open');
     this.drawer.classList.remove('h-0');
     this.drawer.classList.add('h-screen');
   }
   closeDrawer() {
+    this.hamburger.classList.remove('open');
     this.drawer.classList.remove('h-screen');
     this.drawer.classList.add('h-0');
   }
