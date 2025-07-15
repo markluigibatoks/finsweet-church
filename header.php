@@ -34,39 +34,10 @@
             </nav>
             
             <a href="#" class="button-nav ml-auto">Contact Us</a>
-            <button id="drawer-toggle" class="lg:hidden relative ml-2 -mr-2 p-2 cursor-pointer">
-              <div class="relative w-6 h-4 group">
-                <span class="absolute left-0 top-0 w-6 h-1 bg-white rounded transition-all duration-300 ease-in-out origin-center group-[.open]:top-1/2 group-[.open]:left-1/2 group-[.open]:-translate-x-1/2 group-[.open]:-translate-y-1/2 group-[.open]:rotate-45"></span>
-
-                <span class="absolute left-0 top-2 w-6 h-1 bg-white rounded transition-all duration-300 ease-in-out opacity-100 group-[.open]:opacity-0"></span>
-
-                <span class="absolute left-0 top-4 w-6 h-1 bg-white rounded transition-all duration-300 ease-in-out origin-center group-[.open]:top-1/2 group-[.open]:left-1/2 group-[.open]:-translate-x-1/2 group-[.open]:-translate-y-1/2 group-[.open]:rotate-[-45deg]"></span>
-              </div>
-            </button>
+            <?php get_template_part('/components/drawer-toggle') ?>
           </div>
         </div>
       </div>
 
-      <div id="drawer" class="absolute top-0 bg-black w-full text-white h-0 overflow-hidden transition-all ease-in-out duration-700">
-        <div class="main-box overflow-auto h-full">    
-          <div class="wrapper">
-            <nav class="pt-20">
-              <ul class="flex flex-col gap-12">
-                  <li>
-                    <a class="block uppercase text-h5 tracking-tighter text-white hover:underline <?php echo is_front_page() ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/'); ?>">Home</a>
-                  </li>
-                  <li>
-                    <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">About Us</a>
-                  </li>
-                  <li>
-                    <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Sermon</a>
-                  </li>
-                  <li>
-                    <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Blog</a>
-                  </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
+      <?php get_template_part('/components/drawer') ?>
     </div>
