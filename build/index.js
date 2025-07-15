@@ -24,12 +24,13 @@ class Drawer {
     if (this.close && this.drawer) {
       this.close.addEventListener('click', () => this.closeDrawer());
     }
-    if (this.drawer) {
-      this.drawer.addEventListener('click', e => {
-        if (this.drawer.contains(e.target)) this.closeDrawer();
-      });
-    }
     window.addEventListener('resize', this.handleResize.bind(this));
+    document.addEventListener('keydown', event => {
+      const isEscKeyPressed = event.key === 'Escape';
+      if (isEscKeyPressed) {
+        this.closeDrawer();
+      }
+    });
   }
   toggleDrawer() {
     const isOpen = this.hamburger.classList.contains('open');
