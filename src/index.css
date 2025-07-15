@@ -27,16 +27,30 @@
     --color-grey: #F5F2F0;
 }
 
+@base {
+    body {
+        font-family: "Roboto Condensed", sans-serif;
+    }
+}
+
 @layer components {
 
-    .container {
+    .current-menu-item {
+        text-decoration: underline;
+    }
+
+    .main-box {
         position: relative;
         padding: 0 24px;
+        max-width: 1920px;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .wrapper {
         max-width: 1280px;
         width: 100%;
+        margin: 0 auto;
     }
 
     .text-gradient {
@@ -45,16 +59,24 @@
 
     .button-primary {
         background-color: var(--color-primary);
-        border-radius: var(--radius-2xl);
-        padding: 24px 64px;
+        border-radius: var(--radius-lg);
+        padding: 8px 16px;
 
         text-align: center;
         font-size: var(--text-paragraph);
         line-height: 16px;
         color: var(--color-black);
+        white-space: nowrap;
 
         @variant hover {
             background-color: var(--color-primary-hover);
+        }
+
+        @media screen and (min-width: 1024px) {
+            & {
+                border-radius: var(--radius-2xl);
+                padding: 24px 64px;
+            }
         }
     }
 
@@ -67,6 +89,7 @@
         font-size: var(--text-paragraph);
         line-height: 16px;
         color: var(--color-primary);
+        white-space: nowrap;
 
         @variant hover {
             background-color: var(--color-white);
