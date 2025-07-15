@@ -67,6 +67,8 @@
         line-height: 16px;
         color: var(--color-black);
         white-space: nowrap;
+        letter-spacing: var(--tracking-tighter);
+        text-transform: uppercase;
 
         @variant hover {
             background-color: var(--color-primary-hover);
@@ -82,17 +84,51 @@
 
     .button-secondary {
         background-color: var(--color-black);
-        border-radius: var(--radius-2xl);
-        padding: 24px 64px;
+        border-radius: var(--radius-lg);
+        padding: 8px 16px;
 
         text-align: center;
         font-size: var(--text-paragraph);
         line-height: 16px;
         color: var(--color-primary);
         white-space: nowrap;
+        letter-spacing: var(--tracking-tighter);
+        text-transform: uppercase;
 
         @variant hover {
             background-color: var(--color-white);
+        }
+
+        @media screen and (min-width: 1024px) {
+            & {
+                border-radius: var(--radius-2xl);
+                padding: 24px 64px;
+            }
+        }
+    }
+
+    .button-nav {
+        background-color: var(--color-primary);
+        border-radius: var(--radius-lg);
+        padding: 8px 16px;
+
+        text-align: center;
+        font-size: var(--text-paragraph);
+        line-height: 16px;
+        color: var(--color-black);
+        white-space: nowrap;
+        letter-spacing: var(--tracking-tighter);
+        text-transform: uppercase;
+
+        @variant hover {
+            background-color: var(--color-primary-hover);
+        }
+
+        @media screen and (min-width: 1024px) {
+            & {
+                border-radius: var(--radius-2xl);
+                padding: 20px 48px;
+            }
         }
     }
 }
