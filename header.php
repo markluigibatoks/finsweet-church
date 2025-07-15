@@ -10,9 +10,11 @@
       <div class="z-10 main-box bg-black">
         <div class="wrapper">
           <div class="py-3 lg:py-0 flex items-center">
-            <div class="xl:pr-16 pr-6">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" />
-            </div>
+            <a href="<?php echo site_url('/')?>">
+              <div class="xl:pr-16 pr-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" />
+              </div>
+            </a>
 
             <nav class="hidden lg:block pl-16 border-l-2 border-l-white/10">
                 <ul class="flex gap-12">
@@ -48,7 +50,22 @@
       <div id="drawer" class="absolute top-0 bg-black w-full text-white h-0 overflow-hidden transition-all ease-in-out duration-700">
         <div class="main-box overflow-auto h-full">    
           <div class="wrapper">
-            <!-- Navigation items here -->
+            <nav class="pt-20">
+              <ul class="flex flex-col gap-12">
+                  <li>
+                    <a class="block uppercase text-h5 tracking-tighter text-white hover:underline <?php echo is_front_page() ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/'); ?>">Home</a>
+                  </li>
+                  <li>
+                    <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Sermon</a>
+                  </li>
+                  <li>
+                    <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Blog</a>
+                  </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
