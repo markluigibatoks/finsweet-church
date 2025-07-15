@@ -15,13 +15,16 @@ class Drawer {
 
         if (this.drawer) {
             this.drawer.addEventListener('click', (e) => {
-                if (e.target === this.drawer) this.closeDrawer()
+                if (this.drawer.contains(e.target)) this.closeDrawer()
             })
         }
+
+        window.addEventListener('resize', this.handleResize.bind(this))
     }
 
     toggleDrawer() {
-        if(this.hamburger.classList.contains('open')) {
+        const isOpen = this.hamburger.classList.contains('open')
+        if(isOpen) {
             this.closeDrawer()
         } else {
             this.openDrawer()
@@ -38,6 +41,16 @@ class Drawer {
         this.hamburger.classList.remove('open')
         this.drawer.classList.remove('h-screen') 
         this.drawer.classList.add('h-0')
+    }
+
+    handleResize() {
+        const currentWidth = window.innerWidth;
+        const isLargeViewport = currentWidth >= 1024;
+        const isOpen = this.hamburger.classList.contains('open');
+
+        if(isLargeViewport && isOpen) {
+            this.closeDrawer()
+        }
     }
 }
 

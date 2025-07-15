@@ -32,7 +32,7 @@
             </nav>
             
             <a href="#" class="button-nav ml-auto">Contact Us</a>
-            <button id="drawer-toggle" class="relative ml-2 -mr-2 p-2 cursor-pointer">
+            <button id="drawer-toggle" class="lg:hidden relative ml-2 -mr-2 p-2 cursor-pointer">
               <div class="relative w-6 h-4 group">
                 <span class="absolute left-0 top-0 w-6 h-1 bg-white rounded transition-all duration-300 ease-in-out origin-center group-[.open]:top-1/2 group-[.open]:left-1/2 group-[.open]:-translate-x-1/2 group-[.open]:-translate-y-1/2 group-[.open]:rotate-45"></span>
 
