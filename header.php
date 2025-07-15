@@ -19,16 +19,16 @@
             <nav class="hidden lg:block pl-16 border-l-2 border-l-white/10">
                 <ul class="flex gap-12">
                     <li>
-                      <a class="leading-20 uppercase text-label-2 tracking-tighter font-light opacity-90 text-white hover:underline <?php echo is_front_page() ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/'); ?>">Home</a>
+                      <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline <?php echo is_front_page() ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/'); ?>">Home</a>
                     </li>
                     <li>
-                      <a class="leading-20 uppercase text-label-2 tracking-tighter font-light opacity-90 text-white hover:underline" href="#">About Us</a>
+                      <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline" href="#">About Us</a>
                     </li>
                     <li>
-                      <a class="leading-20 uppercase text-label-2 tracking-tighter font-light opacity-90 text-white hover:underline" href="#">Sermon</a>
+                      <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline" href="#">Sermon</a>
                     </li>
                     <li>
-                      <a class="leading-20 uppercase text-label-2 tracking-tighter font-light opacity-90 text-white hover:underline" href="#">Blog</a>
+                      <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline" href="#">Blog</a>
                     </li>
                 </ul>
             </nav>
