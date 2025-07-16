@@ -5,5 +5,6 @@
     get_template_part("/components/middle2");
     get_template_part("/components/bottom1");
     get_template_part("/components/bottom2");
+    get_template_part("/components/bottom3");
     get_footer();
 ?>

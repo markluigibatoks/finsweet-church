@@ -25,7 +25,7 @@
             <span class="text-label-2 uppercase">our mission & vision</span>
             <h2 class="lg:mt-4 lg:mb-4 mb-2 md:text-h4 text-h5 uppercase">Celebrate With Us</h2>
             <p class="opacity-78 max-w-[512px] mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#" class="block mx-auto lg:mx-0 mt-4 text-cap-2">Read More <i class="fas fa-arrow-right"></i></a>
+            <a href="#" class="hover:underline block mx-auto lg:mx-0 mt-4 text-cap-2">Read More <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 </div>
