@@ -43,7 +43,9 @@
     --text-label-2: 16px;
     --text-label-3: 18px;
     --text-cap-1: 16px;
-    --text-cap-2: 12px;
+    --text-cap-2: 14px;
+    --text-cap-3: 12px;
+    --text-cap-3--letter-spacing: 0%;
 
     --color-primary: #FFD2A4;
     --color-primary-hover: #F2C79B;
