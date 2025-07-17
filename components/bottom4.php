@@ -15,7 +15,7 @@
             <span>Tuesday 13 May, 2021</span>
           </div>
         
-          <div class="px-8 pt-12 pb-8 border-b-16 border-primary bg-light-orange w-full text-center lg:text-left">
+          <div class="px-8 py-12 bg-light-orange w-full text-center lg:text-left">
             <span class="text-cap-3 text-gradient uppercase">Relationship</span>
             <h2 class="mt-4 text-h5 mb-4 uppercase">WATCH AND LISTEN TO OUR SERMONS</h2>
             <p class="opacity-78">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
@@ -24,7 +24,7 @@
             <span>Tuesday 13 May, 2021</span>
           </div>
 
-          <div class="px-8 pt-12 pb-8 border-b-16 border-primary bg-light-orange w-full text-center lg:text-left">
+          <div class="px-8 py-12 bg-light-orange w-full text-center lg:text-left">
             <span class="text-cap-3 text-gradient uppercase">Relationship</span>
             <h2 class="mt-4 text-h5 mb-4 uppercase">WATCH AND LISTEN TO OUR SERMONS</h2>
             <p class="opacity-78">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
@@ -33,7 +33,7 @@
             <span>Tuesday 13 May, 2021</span>
           </div>
 
-          <div class="px-8 pt-12 pb-8 border-b-16 border-primary bg-light-orange w-full text-center lg:text-left">
+          <div class="px-8 py-12 bg-light-orange w-full text-center lg:text-left">
             <span class="text-cap-3 text-gradient uppercase">Relationship</span>
             <h2 class="mt-4 text-h5 mb-4 uppercase">WATCH AND LISTEN TO OUR SERMONS</h2>
             <p class="opacity-78">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
