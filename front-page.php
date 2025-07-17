@@ -1,11 +1,11 @@
 <?php
     get_header();
-    get_template_part("/components/banner");
-    get_template_part("/components/middle1");
-    get_template_part("/components/middle2");
-    get_template_part("/components/bottom1");
-    get_template_part("/components/bottom2");
-    get_template_part("/components/bottom3");
-    get_template_part("/components/bottom4");
+    get_template_part("/partials/banner");
+    get_template_part("/partials/middle1");
+    get_template_part("/partials/middle2");
+    get_template_part("/partials/bottom1");
+    get_template_part("/partials/bottom2");
+    get_template_part("/partials/bottom3");
+    get_template_part("/partials/bottom4");
     get_footer();
 ?>
