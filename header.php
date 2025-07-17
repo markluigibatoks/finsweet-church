@@ -34,10 +34,10 @@
             </nav>
             
             <a href="#" class="button-nav ml-auto">Contact Us</a>
-            <?php get_template_part('/components/drawer-toggle') ?>
+            <?php get_template_part('/partials/drawer-toggle') ?>
           </div>
         </div>
       </div>
 
-      <?php get_template_part('/components/drawer') ?>
+      <?php get_template_part('/partials/drawer') ?>
     </div>
