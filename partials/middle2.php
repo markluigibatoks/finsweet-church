@@ -9,15 +9,15 @@
 
         <div class="flex justify-center gap-2 md:gap-6">
           <div class="">
-            <img class="rounded-[30px]" src="<?php echo get_template_directory_uri();?>/assets/images/middle2-img1.jpg" alt="a man is praying" />
+            <img class="rounded-[30px]" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/middle2-img1.jpg" alt="a man is praying" />
           </div>
         
           <div class="lg:mt-16 md:mt-10 mt-5">
-            <img class="rounded-4xl" src="<?php echo get_template_directory_uri();?>/assets/images/middle2-img2.jpg" alt="a man and woman are reading the bible" />
+            <img class="rounded-4xl" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/middle2-img2.jpg" alt="a man and woman are reading the bible" />
           </div>
         
           <div class="">
-            <img class="rounded-[30px]" src="<?php echo get_template_directory_uri();?>/assets/images/middle2-img3.jpg" alt="a woman is giving blessing to people" />
+            <img class="rounded-[30px]" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/middle2-img3.jpg" alt="a woman is giving blessing to people" />
           </div>
         </div>
 

@@ -19,7 +19,7 @@
           <div class="max-w-max mx-auto lg:mx-0">
             <div class="mt-8 flex items-start gap-4">
               <div class="flex items-center justify-center">
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/bottom2-icon1.svg" alt="icon"/>
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/front-page/bottom2-icon1.svg" alt="icon"/>
               </div>
 
               <div class="text-left">
@@ -30,7 +30,7 @@
             
             <div class="mt-4 flex items-start gap-4">
               <div class="flex items-center justify-center">
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/bottom2-icon2.svg" alt="icon"/>
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/front-page/bottom2-icon2.svg" alt="icon"/>
               </div>
 
               <address class="not-italic text-left">
@@ -44,7 +44,7 @@
         </div>
       
         <div class="hidden md:block md:aspect-square lg:aspect-33/20">
-          <img class="w-full h-full object-cover" src="<?php echo get_template_directory_uri();?>/assets/images/bottom2-img1.jpg" alt="an angel and fallen angel"/>
+          <img class="w-full h-full object-cover" src="<?php echo get_template_directory_uri();?>/assets/images/front-page/bottom2-img1.jpg" alt="an angel and fallen angel"/>
         </div>
       </div>
 
