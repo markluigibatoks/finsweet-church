@@ -1,16 +1,24 @@
 <?php
+/*
+  Template Name: About Us
+  Template Post Type: page
+*/
+
+  get_header();
+
   get_template_part(
-    '/partials/page-banner.php',
+    '/partials/page-banner',
     null,
     array(
-      'image' => get_template_directory_uri() . "/assets/images/about-us/banner.jpg",
+      'image' => array(
+        'src' => get_template_directory_uri() . "/assets/images/about-us/banner.jpg",
+        'alt' => "a place full of trees"
+      ),
       'heading' => "Serving the world around us"
     )
   );
-?>
 
-<div class="main-box">
-    <div class="wrapper">
-        
-    </div>
-</div>
+  get_template_part('/partials/about-us/section1');
+
+  get_footer();
+?>

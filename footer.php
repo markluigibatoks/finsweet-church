@@ -24,7 +24,7 @@
             <span>Quicklinks</span>
             <ul class="mt-5 text-cap-2">
               <li>
-                <a href="#" class="uppercase hover:underline max-w-max opacity-78">About Us</a>
+                <a class="uppercase hover:underline max-w-max opacity-78 <?php echo is_page('about-us') ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/about-us'); ?>">About Us</a>
               </li>
               <li class="mt-6">
                 <a href="#" class="uppercase hover:underline max-w-max opacity-78">Sermons</a>
