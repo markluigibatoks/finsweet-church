@@ -1,7 +1,7 @@
-<div class="main-box lg:pb-32 pb-10">
+<div class="main-box bg-white lg:pb-32 pb-10">
     <div class="wrapper">
         <div class="w-full text-center">
-            <h2 class="lg:mt-4 lg:text-h2 md:text-h4 text-h5 uppercase">View All Events</h2>
+            <h2 class="lg:text-h2 md:text-h4 text-h5 uppercase">View All Events</h2>
         </div>
 
         <div class="lg:mt-16 mt-10 grid gap-6 grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">

@@ -1,4 +1,4 @@
-<div class="main-box lg:py-32 py-10">
+<div class="main-box bg-white lg:py-32 py-10">
     <div class="wrapper">
         <div class="w-full text-center">
             <span class="text-label-2 uppercase">Read our Blog</span>

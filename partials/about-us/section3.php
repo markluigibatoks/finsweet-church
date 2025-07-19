@@ -1,4 +1,4 @@
-<div class="main-box">
+<div class="main-box bg-white">
     <div class="wrapper lg:pb-32 pb-10">
         <div class="w-full text-center">
             <span class="text-label-2">Church Members</span>

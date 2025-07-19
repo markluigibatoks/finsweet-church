@@ -1,4 +1,4 @@
-<div class="main-box">
+<div class="main-box bg-white">
     <div class="wrapper lg:pt-32 py-10">
         <div class="w-full text-center">
             <span class="text-label-2 uppercase">sub-headline</span>
