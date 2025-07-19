@@ -5,8 +5,8 @@
         </div>
 
         <div class="lg:mt-16 mt-10 grid gap-6 grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
-          <div class="relative bg-light-orange pt-20 pb-16 px-10 w-full text-center lg:text-left">
-            <div class="absolute md:top-8 md:right-8 top-2 right-2 text-right">
+          <div class="relative bg-light-orange pt-20 pb-16 px-10 border-primary border-b-16 w-full text-center lg:text-left">
+            <div class="absolute top-8 right-8 text-right">
               <span class="text-h5">20</span>
               <span class="text-label-2 uppercase block -mt-2">July</span>
             </div>
@@ -40,7 +40,7 @@
           </div>
 
           <div class="relative bg-light-orange py-20 px-10 w-full text-center lg:text-left">
-            <div class="absolute md:top-8 md:right-8 top-2 right-2 text-right">
+            <div class="absolute top-8 right-8 text-right">
               <span class="text-h5">20</span>
               <span class="text-label-2 uppercase block -mt-2">July</span>
             </div>
@@ -74,7 +74,7 @@
           </div>
 
           <div class="relative bg-light-orange py-20 px-10 w-full text-center lg:text-left">
-            <div class="absolute md:top-8 md:right-8 top-2 right-2 text-right">
+            <div class="absolute top-8 right-8 text-right">
               <span class="text-h5">20</span>
               <span class="text-label-2 uppercase block -mt-2">July</span>
             </div>
@@ -108,7 +108,7 @@
           </div>
 
           <div class="relative bg-light-orange py-20 px-10 w-full text-center lg:text-left">
-            <div class="absolute md:top-8 md:right-8 top-2 right-2 text-right">
+            <div class="absolute top-8 right-8 text-right">
               <span class="text-h5">20</span>
               <span class="text-label-2 uppercase block -mt-2">July</span>
             </div>
