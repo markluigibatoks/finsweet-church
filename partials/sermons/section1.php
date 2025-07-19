@@ -6,7 +6,7 @@
     </div>
 
       <div class="lg:mt-16 mt-10 flex">
-        <div class="relative bg-light-orange md:py-15 md:px-22 px-3 pb-5 pt-10   sm:py-10 sm:px-12 lg:max-w-[435px] w-full text-center lg:text-left">
+        <div class="relative bg-light-orange md:py-15 md:px-22 px-3 pb-5 pt-10 sm:py-10 sm:px-12 lg:max-w-[435px] w-full text-center lg:text-left">
           <div class="absolute md:top-8 md:right-8 top-2 right-2 text-right">
             <span class="text-h5">20</span>
             <span class="text-label-2 uppercase block -mt-2">July</span>
@@ -19,7 +19,7 @@
           <div class="max-w-max mx-auto lg:mx-0">
             <div class="mt-8 flex items-start gap-4">
               <div class="flex items-center justify-center">
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/front-page/bottom2-icon1.svg" alt="icon"/>
+                <?php echo file_get_contents(get_template_directory_uri() . '/assets/images/clock.svg') ?>
               </div>
 
               <div class="text-left">
@@ -30,7 +30,7 @@
             
             <div class="mt-4 flex items-start gap-4">
               <div class="flex items-center justify-center">
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/front-page/bottom2-icon2.svg" alt="icon"/>
+                <?php echo file_get_contents(get_template_directory_uri() . '/assets/images/pin.svg') ?>
               </div>
 
               <address class="not-italic text-left">

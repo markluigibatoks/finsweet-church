@@ -20,7 +20,6 @@
 
   get_template_part('/partials/sermons/section1');
   get_template_part('/partials/sermons/section2');
-  get_template_part('/partials/sermons/section3');
 
   get_footer();
 ?>
