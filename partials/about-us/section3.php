@@ -16,17 +16,23 @@
             <ul class="mt-4 flex justify-center items-center gap-5">
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/facebook.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/facebook.svg');
+                  ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/twitter.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/twitter.svg');
+                  ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/linkedin.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/linkedin.svg');
+                  ?>
                 </a>
               </li>
             </ul>
@@ -41,17 +47,23 @@
             <ul class="mt-4 flex justify-center items-center gap-5">
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/facebook.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/facebook.svg');
+                  ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/twitter.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/twitter.svg');
+                  ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/linkedin.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/linkedin.svg');
+                  ?>
                 </a>
               </li>
             </ul>
@@ -67,17 +79,23 @@
             <ul class="mt-4 flex justify-center items-center gap-5">
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/facebook.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/facebook.svg');
+                  ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/twitter.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/twitter.svg');
+                  ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/linkedin.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/linkedin.svg');
+                  ?>
                 </a>
               </li>
             </ul>
@@ -93,17 +111,23 @@
             <ul class="mt-4 flex justify-center items-center gap-5">
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/facebook.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/facebook.svg');
+                  ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/twitter.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/twitter.svg');
+                  ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/linkedin.svg" alt="icon"/>
+                  <?php
+                    echo file_get_contents(get_template_directory_uri() . '/assets/images/linkedin.svg');
+                  ?>
                 </a>
               </li>
             </ul>
