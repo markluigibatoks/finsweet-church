@@ -1,4 +1,4 @@
-<div class="main-box py-32">
+<div class="main-box lg:py-32 py-10">
     <div class="wrapper">
         <div class="w-full text-center">
           <h2 class="lg:text-h2 md:text-h4 text-h5 uppercase">All Blog Posts</h2>
