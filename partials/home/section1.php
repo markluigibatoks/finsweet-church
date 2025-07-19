@@ -6,7 +6,7 @@
         </div>
 
         <div class="bg-white lg:mt-16 mt-5 sm:p-14 p-3 grid grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-12 w-full">
-            <div class="w-full">
+            <div class="max-w-max mx-auto w-full">
               <img class="object-cover w-full h-full" src="<?php echo get_template_directory_uri();?>/assets/images/home/featured-image.jpg" alt="featured image"/>
             </div>
             <div class="place-content-center">

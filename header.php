@@ -28,7 +28,7 @@
                       <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline <?php echo is_page('sermons') ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/sermons'); ?>">Sermons</a>
                     </li>
                     <li>
-                      <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline" href="#">Blog</a>
+                      <a class="leading-20 uppercase text-label-2 tracking-normal font-light opacity-90 text-white hover:underline <?php echo is_home('blog') ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/blog'); ?>">Blog</a>
                     </li>
                 </ul>
             </nav>

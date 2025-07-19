@@ -33,7 +33,7 @@
                 <a href="#" class="uppercase hover:underline max-w-max opacity-78">Events</a>
               </li>
               <li class="mt-6">
-                <a href="#" class="uppercase hover:underline max-w-max opacity-78">Blog</a>
+                <a class="uppercase hover:underline max-w-max opacity-78 <?php echo is_home() ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/blog'); ?>">Blog</a>
               </li>
             </ul>
           </div>
