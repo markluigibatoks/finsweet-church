@@ -14,7 +14,7 @@
         'src' => get_template_directory_uri() . "/assets/images/about-us/banner.jpg",
         'alt' => "a place full of trees"
       ),
-      'heading' => "Serving the world around us"
+      'heading' => "Serving The World Around Us"
     )
   );
 

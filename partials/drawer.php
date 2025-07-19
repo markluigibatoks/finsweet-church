@@ -10,7 +10,7 @@
                     <a class="block uppercase text-h5 tracking-tighter text-white hover:underline <?php echo is_page('about-us') ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/about-us'); ?>">About Us</a>
                     </li>
                     <li>
-                    <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Sermon</a>
+                    <a class="block uppercase text-h5 tracking-tighter text-white hover:underline <?php echo is_page('sermons') ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/sermons'); ?>">Sermons</a>
                     </li>
                     <li>
                     <a class="block uppercase text-h5 tracking-tighter text-white hover:underline" href="#">Blog</a>

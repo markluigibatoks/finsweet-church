@@ -27,7 +27,7 @@
                 <a class="uppercase hover:underline max-w-max opacity-78 <?php echo is_page('about-us') ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/about-us'); ?>">About Us</a>
               </li>
               <li class="mt-6">
-                <a href="#" class="uppercase hover:underline max-w-max opacity-78">Sermons</a>
+                <a class="uppercase hover:underline max-w-max opacity-78 <?php echo is_page('sermons') ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/sermons'); ?>">Sermons</a>
               </li>
               <li class="mt-6">
                 <a href="#" class="uppercase hover:underline max-w-max opacity-78">Events</a>
