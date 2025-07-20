@@ -27,6 +27,8 @@ function theme_support() {
 
   add_theme_support('editor-styles');
   add_editor_style('build/editor.css');
+
+  add_image_size('featured-image', 572, 377, ['center', 'center']);
 }
 
 function register_menus() {
