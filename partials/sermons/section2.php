@@ -18,7 +18,7 @@
             <div class="max-w-max mx-auto lg:mx-0">
               <div class="mt-8 flex items-start gap-4">
                 <div class="flex items-center justify-center">
-                  <?php echo file_get_contents(get_template_directory_uri() . '/assets/images/clock.svg') ?>
+                  <?php echo inline_svg('/assets/images/clock.svg'); ?>
                 </div>
 
                 <div class="text-left">
@@ -29,7 +29,7 @@
               
               <div class="mt-4 flex items-start gap-4">
                 <div class="flex items-center justify-center">
-                  <?php echo file_get_contents(get_template_directory_uri() . '/assets/images/pin.svg') ?>
+                  <?php echo inline_svg('/assets/images/pin.svg'); ?>
                 </div>
 
                 <address class="not-italic text-left">
@@ -52,7 +52,7 @@
             <div class="max-w-max mx-auto lg:mx-0">
               <div class="mt-8 flex items-start gap-4">
                 <div class="flex items-center justify-center">
-                  <?php echo file_get_contents(get_template_directory_uri() . '/assets/images/clock.svg') ?>
+                  <?php echo inline_svg('/assets/images/clock.svg'); ?>
                 </div>
 
                 <div class="text-left">
@@ -63,7 +63,7 @@
               
               <div class="mt-4 flex items-start gap-4">
                 <div class="flex items-center justify-center">
-                  <?php echo file_get_contents(get_template_directory_uri() . '/assets/images/pin.svg') ?>
+                  <?php echo inline_svg('/assets/images/pin.svg'); ?>
                 </div>
 
                 <address class="not-italic text-left">
@@ -86,7 +86,7 @@
             <div class="max-w-max mx-auto lg:mx-0">
               <div class="mt-8 flex items-start gap-4">
                 <div class="flex items-center justify-center">
-                  <?php echo file_get_contents(get_template_directory_uri() . '/assets/images/clock.svg') ?>
+                  <?php echo inline_svg('/assets/images/clock.svg'); ?>
                 </div>
 
                 <div class="text-left">
@@ -97,7 +97,7 @@
               
               <div class="mt-4 flex items-start gap-4">
                 <div class="flex items-center justify-center">
-                  <?php echo file_get_contents(get_template_directory_uri() . '/assets/images/pin.svg') ?>
+                  <?php echo inline_svg('/assets/images/pin.svg'); ?>
                 </div>
 
                 <address class="not-italic text-left">
@@ -120,7 +120,7 @@
             <div class="max-w-max mx-auto lg:mx-0">
               <div class="mt-8 flex items-start gap-4">
                 <div class="flex items-center justify-center">
-                  <?php echo file_get_contents(get_template_directory_uri() . '/assets/images/clock.svg') ?>
+                  <?php echo inline_svg('/assets/images/clock.svg'); ?>
                 </div>
 
                 <div class="text-left">
@@ -131,7 +131,7 @@
               
               <div class="mt-4 flex items-start gap-4">
                 <div class="flex items-center justify-center">
-                  <?php echo file_get_contents(get_template_directory_uri() . '/assets/images/pin.svg') ?>
+                  <?php echo inline_svg('/assets/images/pin.svg'); ?>
                 </div>
 
                 <address class="not-italic text-left">

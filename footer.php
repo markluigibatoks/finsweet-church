@@ -42,21 +42,15 @@
             <span>Connect</span>
             <div class="mt-5 flex gap-5">
               <a href="#" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center text-primary">
-                <?php
-                  echo file_get_contents(get_template_directory_uri() . '/assets/images/facebook.svg');
-                ?>
+                <?php echo inline_svg('/assets/images/facebook.svg'); ?>
               </a>
 
               <a href="#" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center text-primary">
-                <?php
-                  echo file_get_contents(get_template_directory_uri() . '/assets/images/twitter.svg');
-                ?>
+                <?php echo inline_svg('/assets/images/twitter.svg'); ?>
               </a>
 
               <a href="#" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center text-primary">
-                <?php
-                  echo file_get_contents(get_template_directory_uri() . '/assets/images/linkedin.svg');
-                ?>
+                <?php echo inline_svg('/assets/images/linkedin.svg'); ?>
               </a>
             </div>
           </div>

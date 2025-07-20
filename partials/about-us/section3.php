@@ -16,23 +16,17 @@
             <ul class="mt-4 flex justify-center items-center gap-5">
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/facebook.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/facebook.svg'); ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/twitter.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/twitter.svg'); ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/linkedin.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/linkedin.svg'); ?>
                 </a>
               </li>
             </ul>
@@ -47,23 +41,17 @@
             <ul class="mt-4 flex justify-center items-center gap-5">
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/facebook.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/facebook.svg'); ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/twitter.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/twitter.svg'); ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/linkedin.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/linkedin.svg'); ?>
                 </a>
               </li>
             </ul>
@@ -79,23 +67,17 @@
             <ul class="mt-4 flex justify-center items-center gap-5">
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/facebook.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/facebook.svg'); ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/twitter.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/twitter.svg'); ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/linkedin.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/linkedin.svg'); ?>
                 </a>
               </li>
             </ul>
@@ -111,23 +93,17 @@
             <ul class="mt-4 flex justify-center items-center gap-5">
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/facebook.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/facebook.svg'); ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/twitter.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/twitter.svg'); ?>
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" class="flex items-center justify-center text-black hover:opacity-70">
-                  <?php
-                    echo file_get_contents(get_template_directory_uri() . '/assets/images/linkedin.svg');
-                  ?>
+                  <?php echo inline_svg('/assets/images/linkedin.svg'); ?>
                 </a>
               </li>
             </ul>
