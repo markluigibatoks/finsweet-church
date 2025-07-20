@@ -23,6 +23,9 @@ function theme_support() {
   add_theme_support('title-tag');
   add_theme_support('post-thumbnails');
   add_theme_support( 'wp-block-styles' );
+
+  add_theme_support('editor-styles');
+  add_editor_style('build/editor.css');
 }
 
 function register_menus() {
@@ -31,4 +34,14 @@ function register_menus() {
 
 add_action('after_setup_theme', 'register_menus');
 add_action('after_setup_theme', 'theme_support');
+
+add_action('enqueue_block_editor_assets', function () {
+  wp_enqueue_script(
+    'editor-custom-logic',
+    get_theme_file_uri('/build/editor.js'),
+    ['wp-blocks', 'wp-hooks', 'wp-edit-post'],
+    '1.0',
+    true
+  );
+});
 
