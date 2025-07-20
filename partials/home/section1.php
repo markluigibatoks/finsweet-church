@@ -25,7 +25,7 @@
             </div>
             <div class="place-content-center">
               <div class="uppercase text-label-2 text-left flex flex-col md:flex-row justify-between md:items-center">
-                <span><?php the_date('l j F, Y'); ?></span>
+                <span><?php echo get_the_date('l j F, Y'); ?></span>
                 <span>By <?php the_author(); ?></span>
               </div>
               <h2 class="md:text-h4 md:mt-3 mt-2 text-h5 uppercase"><?php the_title(); ?></h2>
