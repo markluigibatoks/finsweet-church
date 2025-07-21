@@ -1,23 +1,4 @@
 <?php
-
-function register_testimonial_post_type() {
-    register_post_type('testimonial', [
-        'labels' => [
-            'name' => 'Testimonials',
-            'singular_name' => 'Testimonial',
-            'add_new_item' => 'Add New Testimonial',
-            'edit_item' => 'Edit Testimonial',
-        ],
-        'public' => true,
-        'menu_icon' => 'dashicons-testimonial',
-        'supports' => ['title'],
-        'has_archive' => false,
-        'rewrite' => ['slug' => 'my-testimonials'],
-        'show_in_rest' => true,
-    ]);
-}
-add_action('init', 'register_testimonial_post_type');
-
 function register_events_post_type() {
     $labels = array(
         'name'                  => 'Events',
@@ -74,3 +55,41 @@ function register_events_post_type() {
     register_post_type('event', $args);
 }
 add_action('init', 'register_events_post_type');
+
+function register_event_registration_post_type() {
+    $labels = array(
+        'name'               => _x('Event Registrations', 'post type general name', 'textdomain'),
+        'singular_name'      => _x('Event Registration', 'post type singular name', 'textdomain'),
+        'menu_name'          => _x('Event Registrations', 'admin menu', 'textdomain'),
+        'name_admin_bar'     => _x('Event Registration', 'add new on admin bar', 'textdomain'),
+        'add_new'            => _x('Add New', 'event registration', 'textdomain'),
+        'add_new_item'       => __('Add New Event Registration', 'textdomain'),
+        'new_item'           => __('New Event Registration', 'textdomain'),
+        'edit_item'          => __('Edit Event Registration', 'textdomain'),
+        'view_item'          => __('View Event Registration', 'textdomain'),
+        'all_items'          => __('All Event Registrations', 'textdomain'),
+        'search_items'       => __('Search Event Registrations', 'textdomain'),
+        'parent_item_colon'  => __('Parent Event Registrations:', 'textdomain'),
+        'not_found'          => __('No event registrations found.', 'textdomain'),
+        'not_found_in_trash' => __('No event registrations found in Trash.', 'textdomain')
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'description'        => __('Event registrations submitted by users.', 'textdomain'),
+        'public'             => false, // Not publicly accessible
+        'show_ui'            => true,  // Show in admin dashboard
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => false,
+        'menu_position'      => 20,
+        'menu_icon'          => 'dashicons-list-view', // Icon in admin menu
+        'supports'           => array('title', 'editor'), // You can adjust supports as needed
+    );
+
+    register_post_type('event_registration', $args);
+}
+add_action('init', 'register_event_registration_post_type');
+

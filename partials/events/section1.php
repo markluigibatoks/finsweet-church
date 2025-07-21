@@ -19,7 +19,7 @@
       </div>
       
 
-      <form class="lg:max-w-[400px] xl:max-w-[522px] w-full bg-white h-auto p-10">
+      <form method="POST" id="event-registration-form" class="lg:max-w-[400px] xl:max-w-[522px] w-full bg-white h-auto p-10">
         <h3 class="md:text-h4 text-h5">Register Now</h3>
         <div class="flex gap-4 lg:mt-8 mt-5">
           <div class="mt-8 flex flex-col md:flex-row lg:flex-col xl:flex-row items-start gap-4">
@@ -29,7 +29,7 @@
               </div>
 
               <address class="not-italic text-left">
-                No 233 Main St. New York, United States
+                <?php the_field('address') ?>
               </address>
             </div>
 
@@ -39,7 +39,7 @@
               </div>
 
               <div class="text-left whitespace-nowrap">
-                <span>13 May, 2018</span>
+                <span><?php echo date('F d Y', strtotime(get_field('date'))) ?></span>
               </div>
             </div>
           </div>
@@ -48,15 +48,17 @@
         <div class="mt-8 flex flex-col gap-8">
             <label>
               <span class="text-cap-3">Name</span>
-              <input type="name" class="w-full p-2 border-b-grey border-b-1" placeholder="John Doe"/>
+              <input type="name" name="full_name" autocomplete="name" class="w-full p-2 border-b-grey border-b-1" placeholder="John Doe"/>
             </label>
 
             <label>
               <span class="text-cap-3">Email</span>
-              <input type="email" class="w-full p-2 border-b-grey border-b-1" placeholder="abc@email.com"/>
+              <input type="email" name="email" required autocomplete="email" class="w-full p-2 border-b-grey border-b-1" placeholder="abc@email.com"/>
             </label>
 
-            <button type="button" class="button-nav max-w-max mx-auto lg:mx-0 cursor-pointer">Register Now</button>
+            <input type="hidden" name="event_id" required autocomplete="off" value="<?php echo get_the_ID()?>" />
+
+            <button type="submit" class="button-nav max-w-max mx-auto lg:mx-0 cursor-pointer">Register Now</button>
         </div>
 
       </form>
