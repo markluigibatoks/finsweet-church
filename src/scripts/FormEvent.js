@@ -1,6 +1,6 @@
 import SweetAlert from "./SweetAlert";
 
-class EventForm {
+class FormEvent {
     constructor(formSelector) {
         this.form = document.querySelector(formSelector);
 
@@ -46,4 +46,4 @@ class EventForm {
     }
 }
 
-export default EventForm
+export default FormEvent
