@@ -11,7 +11,7 @@
             <input name="email" placeholder="Your Email" class="w-full p-5 bg-white rounded" />
           </label>
           <label>
-            <input name="message" placeholder="Message" class="w-full p-5 bg-white rounded" />
+            <textarea rows="4" name="message" placeholder="Message" class="w-full p-5 bg-white rounded" ></textarea>
           </label>
           <button type="submit" class="button-nav cursor-pointer uppercase">Send Message</button>
         </div>
