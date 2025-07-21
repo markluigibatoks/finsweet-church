@@ -30,10 +30,10 @@
                 <a class="uppercase hover:underline max-w-max opacity-78 <?php echo is_page('sermons') ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/sermons'); ?>">Sermons</a>
               </li>
               <li class="mt-6">
-                <a href="#" class="uppercase hover:underline max-w-max opacity-78">Events</a>
+                <a class="uppercase hover:underline max-w-max opacity-78 <?php echo is_home() ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/blog'); ?>">Blog</a>
               </li>
               <li class="mt-6">
-                <a class="uppercase hover:underline max-w-max opacity-78 <?php echo is_home() ? 'current-menu-item' : '' ?>" href="<?php echo site_url('/blog'); ?>">Blog</a>
+                <a href="#" class="uppercase hover:underline max-w-max opacity-78">Contact Us</a>
               </li>
             </ul>
           </div>
