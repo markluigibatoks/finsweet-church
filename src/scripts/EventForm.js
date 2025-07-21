@@ -1,8 +1,11 @@
+import SweetAlert from "./SweetAlert";
+
 class EventForm {
     constructor(formSelector) {
         this.form = document.querySelector(formSelector);
 
         this.events();
+        this.swal = new SweetAlert()
     }
 
     events() {
@@ -20,25 +23,26 @@ class EventForm {
                     body: formData
                 });
 
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-
                 const data = await response.json();
-                console.log('Success:', data);
+
+                if (!response.ok) {
+                    const errorMessage = data.message || response.statusText || `HTTP error! status: ${response.status}`;
+                    throw new Error(errorMessage);
+                }
+                
+                this.swal.success({
+                    title: 'Registration Successful!',
+                    text: 'You have successfully registered for the event.'
+                })
+
+                this.form.reset()
             } catch (error) {
-                console.error('Error submitting testimonial:', error);
+                this.swal.error({
+                    title: 'Oops!',
+                    text: error.message
+                })
             }
         });
-
-        this.form.addEventListener('reset', () => {
-            const ratingField = document.querySelector('#testimonial-rating-field');
-
-            if (ratingField) {
-                ratingField.value = '5';
-                ratingField.dispatchEvent(new Event('change'));
-            }
-        })
     }
 }
 
