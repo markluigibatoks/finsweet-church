@@ -33,7 +33,7 @@
                 </ul>
             </nav>
             
-            <a href="#" class="button-nav ml-auto">Contact Us</a>
+            <a href="<?php echo site_url('/contact-us'); ?>" class="button-nav ml-auto">Contact Us</a>
             <?php get_template_part('/partials/drawer-toggle') ?>
           </div>
         </div>

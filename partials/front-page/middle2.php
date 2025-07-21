@@ -4,7 +4,7 @@
             <span class="text-label-2">SUB-HEADLINE</span>
             <h2 class="lg:text-h2 md:text-h4 text-h5 lg:mt-4 lg:mb-8 mb-2 uppercase">love and compassion</h2>
             <p class="max-w-[846px] mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <a href="#" class="button-primary mx-auto lg:mt-14 mt-6 uppercase block max-w-max">Read more</a>
+            <a href="<?php echo site_url('/about-us#love-and-compassion'); ?>" class="button-primary mx-auto lg:mt-14 mt-6 uppercase block max-w-max">Read more</a>
         </div>
 
         <div class="flex justify-center gap-2 md:gap-6">
@@ -25,7 +25,7 @@
             <span class="text-label-2 uppercase">our mission & vision</span>
             <h2 class="lg:mt-4 lg:mb-4 mb-2 md:text-h4 text-h5 uppercase">Celebrate With Us</h2>
             <p class="opacity-78 max-w-[512px] mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#" class="hover:underline block mx-auto lg:mx-0 mt-4 text-cap-2">Read More <i class="fas fa-arrow-right"></i></a>
+            <a href="<?php echo site_url('/about-us#mission-vision'); ?>" class="hover:underline block mx-auto lg:mx-0 mt-4 text-cap-2">Read More <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 </div>
