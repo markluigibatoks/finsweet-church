@@ -20,7 +20,7 @@ function createContactUs($data) {
   }
 
   if (empty($full_name) || empty($email) || empty($message)) {
-    return new WP_Error('missing_fields', 'Required fields missing' . $email . $full_name . $message, ['status' => 400]);
+    return new WP_Error('missing_fields', 'Required fields missing', ['status' => 400]);
   }
 
   try {
