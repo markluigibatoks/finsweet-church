@@ -46,5 +46,8 @@ add_action('enqueue_block_editor_assets', function () {
     '1.0',
     true
   );
+
+  $post_type = get_post_type();
+  wp_add_inline_script('editor-custom-logic', 'window.currentPostType = "' . esc_js($post_type) . '";', 'before');
 });
 
