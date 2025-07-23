@@ -24,7 +24,7 @@
         </address>
 
         <span class="text-label-3 opacity-70">Contact Details</span>
-        <a href="tel:(480) 555-0103" class="block max-w-max text-h5 mt-2">(480) 555-0103</a>
+        <a href="tel:+14805550103" class="block max-w-max text-h5 mt-2">(480) 555-0103</a>
         <a href="mailto:finsweet@example.com" class="block max-w-max text-h5 mt-2">finsweet@example.com</a>
       </div>
     </div>
