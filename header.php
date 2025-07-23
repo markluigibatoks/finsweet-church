@@ -6,13 +6,13 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <div class="z-10 sticky top-0">
+    <header class="z-10 sticky top-0">
       <div class="z-10 main-box bg-black">
         <div class="wrapper">
           <div class="py-3 lg:py-0 flex items-center">
             <a href="<?php echo site_url('/')?>">
               <div class="xl:pr-16 pr-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="logo" />
               </div>
             </a>
 
@@ -40,4 +40,4 @@
       </div>
 
       <?php get_template_part('/partials/drawer') ?>
-    </div>
+    </header>

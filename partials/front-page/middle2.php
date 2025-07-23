@@ -1,4 +1,4 @@
-<div class="main-box bg-white lg:pt-28 lg:pb-32 py-10">
+<main class="main-box bg-white lg:pt-28 lg:pb-32 py-10">
     <div class="wrapper">
         <div class="w-full text-center">
             <span class="text-label-2">SUB-HEADLINE</span>
@@ -28,4 +28,4 @@
             <a href="<?php echo site_url('/about-us#mission-vision'); ?>" class="hover:underline block mx-auto lg:mx-0 mt-4 text-cap-2">Read More <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
-</div>
+</main>
