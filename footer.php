@@ -13,7 +13,7 @@
           </div>
 
           <div class="text-cap-2 mt-8">
-            <a href="tel:(480) 555-0103" target="_blank" class="block hover:underline max-w-max">(480) 555-0103</a>
+            <a href="tel:+14805550103" target="_blank" class="block hover:underline max-w-max">(480) 555-0103</a>
             <address class="not-italic">4517 Washington Ave.</address>
             <a href="mailto:finsweet@example.com" target="_blank" class="block hover:underline max-w-max">finsweet@example.com</a>
           </div>
@@ -41,15 +41,15 @@
           <div class="text-white">
             <span>Connect</span>
             <div class="mt-5 flex gap-5">
-              <a href="#" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center text-primary">
+              <a href="#" aria-label="Dummy link" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center text-primary">
                 <?php echo inline_svg('/assets/images/facebook.svg'); ?>
               </a>
 
-              <a href="#" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center text-primary">
+              <a href="#" aria-label="Dummy link" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center text-primary">
                 <?php echo inline_svg('/assets/images/twitter.svg'); ?>
               </a>
 
-              <a href="#" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center text-primary">
+              <a href="#" aria-label="Dummy link" target="_blank" class="hover:opacity-78 w-4 h-4 display flex items-center justify-center text-primary">
                 <?php echo inline_svg('/assets/images/linkedin.svg'); ?>
               </a>
             </div>
