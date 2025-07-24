@@ -1,7 +1,7 @@
 <div class="main-box bg-white">
     <div class="wrapper lg:pt-32 py-10">
         <div class="w-full text-center">
-            <span class="text-label-2 uppercase">sub-headline</span>
+            <span class="text-label-2 uppercase">subheadline</span>
             <h2 class="lg:mt-4 text-h5 lg:text-h2 uppercase">a church that's relevant</h2>
         </div>
 
